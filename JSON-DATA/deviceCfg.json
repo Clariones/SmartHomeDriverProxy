@@ -1,0 +1,113 @@
+{
+    "Light-4": {
+      "ID": "Light-4",
+      "profile": "Honeywell.HGW2000.Maia_II_Light",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "id": 4.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456"
+      }
+    },
+    "Light-3": {
+      "ID": "Light-3",
+      "profile": "Honeywell.HGW2000.Maia_II_HBus_Light",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "area": 1.0,
+        "loop": 3.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456"
+      }
+    },
+    "AC-3": {
+      "ID": "AC-3",
+      "profile": "Honeywell.HGW2000.485HVAC",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "id": 103.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456"
+      }
+    },
+    "UFH-1": {
+      "ID": "UFH-1",
+      "profile": "Honeywell.HGW2000.UFH",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "id": 10.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456"
+      }
+    },
+    "AC-4": {
+      "ID": "AC-4",
+      "profile": "Honeywell.HGW2000.485HVAC",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "id": 1.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456"
+      }
+    },
+    "Light-2": {
+      "ID": "Light-2",
+      "profile": "Honeywell.HGW2000.Maia_I_Light",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "id": 2.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456"
+      }
+    },
+    "Light-1": {
+      "ID": "Light-1",
+      "profile": "Honeywell.HGW2000.Maia_I_HBus_Light",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "area": 1.0,
+        "loop": 1.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456"
+      }
+    },
+    "AC-1": {
+      "ID": "AC-1",
+      "profile": "Honeywell.HGW2000.485HVAC",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "id": 101.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456",
+        "port": 10099.0
+      }
+    },
+    "AC-2": {
+      "ID": "AC-2",
+      "profile": "Honeywell.HGW2000.485HVAC",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "id": 102.0
+      },
+      "extParams": {
+        "userName": "admin",
+        "password": "123456"
+      }
+    }
+  }

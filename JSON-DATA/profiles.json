@@ -1,0 +1,121 @@
+{
+    "Honeywell.HGW2000.485HVAC": {
+      "ID": "Honeywell.HGW2000.485HVAC",
+      "standard": "HVAC.Normal",
+      "identifiers": [
+        "ipAddress",
+        "id"
+      ],
+      "spec": {
+        "validRunningModes": [
+          "关机",
+          "自动",
+          "风",
+          "制冷",
+          "制热",
+          "除湿"
+        ],
+        "roomTemperatureRange": [
+          16.0,
+          35.0
+        ],
+        "temperatureSettingRange": [
+          16.0,
+          35.0
+        ],
+        "validFanModes": [
+          "自动",
+          "柔和",
+          "舒适",
+          "高速"
+        ],
+        "humidityFunction": "no",
+        "hasWingDirection": "no"
+      },
+      "extParams": {
+        "runningModes": {
+          "关机": 0.0,
+          "自动": 1000.0,
+          "风": 1001.0,
+          "制热": 1002.0,
+          "制冷": 1003.0,
+          "除湿": 1004.0
+        },
+        "fanModes": {
+          "自动": 0.0,
+          "柔和": 1.0,
+          "舒适": 2.0,
+          "高速": 3.0
+        }
+      }
+    },
+    "Honeywell.HGW2000.Maia_I_HBus_Light": {
+      "ID": "Honeywell.HGW2000.Maia_I_HBus_Light",
+      "standard": "Light.Dimmer",
+      "identifiers": [
+        "ipAddress",
+        "area",
+        "loop"
+      ],
+      "spec": {
+        "canDoToggle": "no",
+        "canQueryStatus": "no"
+      }
+    },
+    "Honeywell.HGW2000.UFH": {
+      "ID": "Honeywell.HGW2000.UFH",
+      "standard": "FloorHeating.Normal",
+      "identifiers": [
+        "ipAddress",
+        "id"
+      ],
+      "spec": {
+        "canQueryStatus": "yes",
+        "roomTemperatureRange": [
+          16.0,
+          30.0
+        ],
+        "temperatureSettingRange": [
+          16.0,
+          30.0
+        ]
+      }
+    },
+    "Honeywell.HGW2000.Maia_II_Light": {
+      "ID": "Honeywell.HGW2000.Maia_II_Light",
+      "standard": "Light.Simple",
+      "identifiers": [
+        "ipAddress",
+        "id"
+      ],
+      "spec": {
+        "canDoToggle": "no",
+        "canQueryStatus": "yes"
+      }
+    },
+    "Honeywell.HGW2000.Maia_I_Light": {
+      "ID": "Honeywell.HGW2000.Maia_I_Light",
+      "standard": "Light.Simple",
+      "identifiers": [
+        "ipAddress",
+        "id"
+      ],
+      "spec": {
+        "canDoToggle": "no",
+        "canQueryStatus": "no"
+      }
+    },
+    "Honeywell.HGW2000.Maia_II_HBus_Light": {
+      "ID": "Honeywell.HGW2000.Maia_II_HBus_Light",
+      "standard": "Light.Dimmer",
+      "identifiers": [
+        "ipAddress",
+        "area",
+        "loop"
+      ],
+      "spec": {
+        "canDoToggle": "no",
+        "canQueryStatus": "yes"
+      }
+    }
+}

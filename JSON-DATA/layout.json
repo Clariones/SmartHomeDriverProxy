@@ -1,0 +1,108 @@
+{
+    "ctrl02": [
+      {
+        "type": "page",
+        "params": {
+          "a": "a",
+          "b": "b"
+        },
+        "layoutContent": [
+          {
+            "type": "sixgridLayout",
+            "params": {
+              "layoutDirection": "landscape"
+            },
+            "layoutContent": [
+              {
+                "type": "normalHVAC",
+                "params": {
+                  "deviceID": "AC-1",
+                  "atRow": 1.0,
+                  "atCol": 1.0,
+                  "hasRows": 1.0,
+                  "hasCols": 1.0
+                }
+              },
+              {
+                "type": "simpleDimmer",
+                "params": {
+                  "deviceID": "Light-1",
+                  "atRow": 1.0,
+                  "atCol": 2.0,
+                  "hasRows": 1.0,
+                  "hasCols": 1.0
+                }
+              },
+              {
+                "type": "simpleLight",
+                "params": {
+                  "deviceID": "Light-1",
+                  "atRow": 1.0,
+                  "atCol": 3.0,
+                  "hasRows": 1.0,
+                  "hasCols": 1.0
+                }
+              },
+              {
+                "type": "simpleDimmer",
+                "params": {
+                  "deviceID": "Light-3",
+                  "atRow": 2.0,
+                  "atCol": 1.0,
+                  "hasRows": 1.0,
+                  "hasCols": 1.0
+                }
+              },
+              {
+                "type": "simpleLight",
+                "params": {
+                  "deviceID": "Light-4",
+                  "atRow": 2.0,
+                  "atCol": 2.0,
+                  "hasRows": 1.0,
+                  "hasCols": 1.0
+                }
+              },
+              {
+                "type": "normalFloorHeating",
+                "params": {
+                  "deviceID": "UFH-1",
+                  "atRow": 2.0,
+                  "atCol": 3.0,
+                  "hasRows": 1.0,
+                  "hasCols": 1.0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "page",
+        "params": {
+          "a": "a",
+          "b": "b"
+        },
+        "layoutContent": [
+          {
+            "type": "sixgridLayout",
+            "params": {
+              "layoutDirection": "portrait"
+            },
+            "layoutContent": [
+              {
+                "type": "normalHVAC",
+                "params": {
+                  "deviceID": "AC-3",
+                  "atRow": 2.0,
+                  "atCol": 1.0,
+                  "hasRows": 1.0,
+                  "hasCols": 1.0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

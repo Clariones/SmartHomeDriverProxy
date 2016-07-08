@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <bgby.skynet.org.smarthomedriverproxy.preference.RotateScreenPreference
+        android:key="pref_key_rotate_screen"
+        android:title="@string/pref_title_rotate_screen"
+        android:defaultValue="0"
+        />
+    <EditTextPreference
+        android:key="pref_key_mine_id"
+        android:title="@string/pref_title_mine_id"
+        android:defaultValue="@string/pref_mine_id_defval"/>
+     <EditTextPreference
+        android:key="pref_key_driverproxy_port"
+        android:title="@string/pref_title_driverproxy_port"
+        android:defaultValue="8981"
+        android:inputType="number"/>
+    <EditTextPreference
+        android:key="pref_key_multicast_port"
+        android:title="@string/pref_title_udpmessage_port"
+        android:defaultValue="8982"
+        android:inputType="number"/>
+
+
+</PreferenceScreen>

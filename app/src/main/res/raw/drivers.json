@@ -1,0 +1,12 @@
+[
+  {
+    "ID": "Honeywell HDW 2000",
+    "driverClass": "org.skynet.bgby.devicedriver.honeywell.Hgw2000",
+    "configurationClass": "org.skynet.bgby.devicedriver.honeywell.Hgw2000DriverConfig",
+    "configurationData": {
+      "defaultUserName": "admin",
+      "defaultPassword": "123456",
+      "defaultPort": 10099
+    }
+  }
+]
