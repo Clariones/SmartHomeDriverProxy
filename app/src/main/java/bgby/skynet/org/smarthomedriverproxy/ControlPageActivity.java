@@ -187,7 +187,8 @@ public class ControlPageActivity extends Activity {
     private void appendFromBinder(StringBuilder sb, List<String> lines, String title, String emptyMsg) {
         sb.append("\r\n").append(title);
         if (lines == null || lines.isEmpty()){
-            sb.append(emptyMsg);
+            sb.append(":\r\n    ").append(emptyMsg);
+            return;
         }
         for(String line : lines){
             sb.append("\r\n    ").append(line);
