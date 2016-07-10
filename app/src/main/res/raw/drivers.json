@@ -6,7 +6,16 @@
     "configurationData": {
       "defaultUserName": "admin",
       "defaultPassword": "123456",
+      "devicePollingTime": 10000,
       "defaultPort": 10099
+    }
+  },
+  {
+    "ID": "Example PM2.5 Driver",
+    "driverClass": "org.skynet.bgby.devicedriver.example.ExampleDriver",
+    "configurationClass": "org.skynet.bgby.devicedriver.example.ExampleDriverConfiguration",
+    "configurationData": {
+      "port": 10099
     }
   }
 ]

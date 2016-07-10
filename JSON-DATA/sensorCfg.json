@@ -1,0 +1,14 @@
+{
+    "室内PM2.5": {
+      "ID": "室内PM2.5",
+      "profile": "SomeCompany.SomeType.SomeSensor",
+      "identity": {
+        "ipAddress": "192.168.2.103",
+        "id": 200
+      },
+      "extParams": {
+        "anything": "you need",
+        "can": "put here"
+      }
+    }
+}

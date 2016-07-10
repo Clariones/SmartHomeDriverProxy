@@ -1,0 +1,15 @@
+{
+    "SomeCompany.SomeType.SomeSensor": {
+      "ID": "SomeCompany.SomeType.SomeSensor",
+      "standard": "Sendor.Simple",
+      "identifiers": [
+        "ipAddress",
+        "id"
+      ],
+      "spec": {
+        "measureName": "PM2.5",
+		"unit": "ug/m3",
+        "canQueryStatus": "yes"
+      }
+    }
+}
